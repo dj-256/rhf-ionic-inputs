@@ -1,0 +1,10 @@
+export { RHFIonCheckbox } from "./src/RHFIonCheckbox";
+export { RHFIonDatetime } from "./src/RHFIonDatetime";
+export { RHFIonInput } from "./src/RHFIonInput";
+export { RHFIonPickerColumn } from "./src/RHFIonPickerColumn";
+export { RHFIonRadioGroup } from "./src/RHFIonRadioGroup";
+export { RHFIonRange } from "./src/RHFIonRange";
+export { RHFIonSearchbar } from "./src/RHFIonSearchbar";
+export { RHFIonSelect } from "./src/RHFIonSelect";
+export { RHFIonTextarea } from "./src/RHFIonTextarea";
+export { RHFIonToggle } from "./src/RHFIonToggle";

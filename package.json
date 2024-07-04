@@ -1,0 +1,27 @@
+{
+  "name": "rhf-ionic-input",
+  "version": "1.0.0",
+  "author": "Joel DIBASSO <joel+github@dibasso.fr>",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild index.ts --outdir=dist"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^18.3.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@ionic/react": "^8.2.5",
+    "prettier": "^3.3.2",
+    "react-hook-form": "^7.52.1"
+  }
+}
