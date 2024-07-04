@@ -1,11 +1,11 @@
 {
-  "name": "rhf-ionic-input",
+  "name": "@dj256/rhf-ionic-inputs",
   "version": "1.0.0",
   "author": "Joel DIBASSO <joel+github@dibasso.fr>",
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "build": "esbuild index.ts --outdir=dist"
+    "build": "tsc"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
